@@ -1,0 +1,36 @@
+        << Shop Offers IDs List >>
+
+    0 = Free Brawl Box
+    1 = Gold
+    2 = Random Brawler
+    3 = Brawler
+    4 = Skin
+    5 = StarPower/ Gadget
+    6 = Brawl Box
+    7 = Tickets
+    8 = Power Points (for a specific brawler)
+    9 = Token Doubler
+    10 = Mega Box
+    11 = Keys (???)
+    12 = Power Points
+    13 = EventSlot (???)
+    14 = Big Box
+    15 = AdBox (not working anymore)
+    16 = Gems
+
+            --- Заготовка ---
+     "OfferID": айди предложения,
+     "DataReference": [1,0],
+     "ShopType": 0,
+     "ShopDisplay": 0, тип предложения
+     "Cost": стоимость предложения, 
+     "Timer": 3600, время нахождения (в сек.)
+     "Multiplier": 10, колличество предметов
+     "OfferText": "заголовок",
+     "Claimed": false не трогать
+
+            --- Типы предложений ---
+0 - стандарный
+1 - в маленьком окошке как ежедневная награда
+
+       
